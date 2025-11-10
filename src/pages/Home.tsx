@@ -42,6 +42,80 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Quick Links Section */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('quickLinks')}</h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              {t('quickLinksDesc')}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            <Link to="/new-customer">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">🆕</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('newCustomer')}
+                </h3>
+                <p className="text-muted-foreground">{t('orderNew')}</p>
+              </div>
+            </Link>
+
+            <Link to="/existing-customer">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">📋</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('trackCaravan')}
+                </h3>
+                <p className="text-muted-foreground">{t('existingCustomer')}</p>
+              </div>
+            </Link>
+
+            <Link to="/projects">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">🏆</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('projects')}
+                </h3>
+                <p className="text-muted-foreground">{t('projectsDesc')}</p>
+              </div>
+            </Link>
+
+            <Link to="/spare-parts">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">🔧</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('spareParts')}
+                </h3>
+                <p className="text-muted-foreground">{t('viewAll')}</p>
+              </div>
+            </Link>
+
+            <Link to="/maintenance">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">⚙️</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('maintenance')}
+                </h3>
+                <p className="text-muted-foreground">{t('requestMaintenance')}</p>
+              </div>
+            </Link>
+
+            <Link to="/contact">
+              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
+                <div className="text-4xl mb-4">📞</div>
+                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+                  {t('contact')}
+                </h3>
+                <p className="text-muted-foreground">{t('contactDesc')}</p>
+              </div>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="py-24 bg-surface">
         <div className="container mx-auto px-4">

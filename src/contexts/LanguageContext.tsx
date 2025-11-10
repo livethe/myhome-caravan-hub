@@ -54,6 +54,18 @@ const translations = {
     getQuote: 'احصل على عرض سعر',
     learnMore: 'اعرف المزيد',
     viewAll: 'عرض الكل',
+    
+    // Projects
+    projects: 'أعمالنا السابقة',
+    projectsTitle: 'أعمالنا السابقة',
+    projectsDesc: 'تصفح مجموعة من مشاريعنا المنفذة بنجاح في السعودية والإمارات',
+    startYourProject: 'ابدأ مشروعك معنا',
+    startYourProjectDesc: 'نحن جاهزون لتحويل فكرتك إلى واقع',
+    
+    // Quick Links
+    quickLinks: 'روابط سريعة',
+    quickLinksDesc: 'اختر الخدمة التي تحتاجها',
+    trackCaravan: 'متابعة الكرفان',
   },
   en: {
     // Navigation
@@ -100,6 +112,18 @@ const translations = {
     getQuote: 'Get a Quote',
     learnMore: 'Learn More',
     viewAll: 'View All',
+    
+    // Projects
+    projects: 'Our Projects',
+    projectsTitle: 'Our Previous Projects',
+    projectsDesc: 'Browse a collection of our successfully completed projects in Saudi Arabia and UAE',
+    startYourProject: 'Start Your Project With Us',
+    startYourProjectDesc: 'We are ready to turn your idea into reality',
+    
+    // Quick Links
+    quickLinks: 'Quick Links',
+    quickLinksDesc: 'Choose the service you need',
+    trackCaravan: 'Track Caravan',
   },
 };
 

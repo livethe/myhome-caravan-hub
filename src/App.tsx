@@ -14,6 +14,7 @@ import ExistingCustomer from "./pages/ExistingCustomer";
 import SpareParts from "./pages/SpareParts";
 import Maintenance from "./pages/Maintenance";
 import Contact from "./pages/Contact";
+import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ const App = () => (
                 <Route path="/existing-customer" element={<ExistingCustomer />} />
                 <Route path="/spare-parts" element={<SpareParts />} />
                 <Route path="/maintenance" element={<Maintenance />} />
+                <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>

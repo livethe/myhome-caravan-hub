@@ -15,6 +15,7 @@ export const Navbar = () => {
     { to: '/existing-customer', label: t('existingCustomer') },
     { to: '/spare-parts', label: t('spareParts') },
     { to: '/maintenance', label: t('maintenance') },
+    { to: '/projects', label: t('projects') },
     { to: '/contact', label: t('contact') },
   ];
 
