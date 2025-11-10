@@ -27,7 +27,7 @@ const Home = () => {
             {t('heroSubtitle')}
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Link to="/new-customer">
               <Button size="lg" className="bg-gradient-gold text-background hover:opacity-90">
                 {t('orderNew')}
@@ -39,77 +39,60 @@ const Home = () => {
               </Button>
             </Link>
           </div>
-        </div>
-      </section>
 
-      {/* Quick Links Section */}
-      <section className="py-20 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-3">{t('quickLinks')}</h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              {t('quickLinksDesc')}
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
-            <Link to="/new-customer">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">🆕</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+          {/* Quick Links Grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-6xl mx-auto mt-16">
+            <Link to="/new-customer" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">🆕</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('newCustomer')}
                 </h3>
-                <p className="text-muted-foreground">{t('orderNew')}</p>
               </div>
             </Link>
 
-            <Link to="/existing-customer">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">📋</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+            <Link to="/existing-customer" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">📋</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('trackCaravan')}
                 </h3>
-                <p className="text-muted-foreground">{t('existingCustomer')}</p>
               </div>
             </Link>
 
-            <Link to="/projects">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">🏆</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+            <Link to="/projects" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">🏆</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('projects')}
                 </h3>
-                <p className="text-muted-foreground">{t('projectsDesc')}</p>
               </div>
             </Link>
 
-            <Link to="/spare-parts">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">🔧</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+            <Link to="/spare-parts" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">🔧</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('spareParts')}
                 </h3>
-                <p className="text-muted-foreground">{t('viewAll')}</p>
               </div>
             </Link>
 
-            <Link to="/maintenance">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">⚙️</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+            <Link to="/maintenance" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">⚙️</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('maintenance')}
                 </h3>
-                <p className="text-muted-foreground">{t('requestMaintenance')}</p>
               </div>
             </Link>
 
-            <Link to="/contact">
-              <div className="bg-surface border border-border rounded-xl p-8 hover:border-primary transition-all hover:shadow-lg group">
-                <div className="text-4xl mb-4">📞</div>
-                <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
+            <Link to="/contact" className="group">
+              <div className="bg-surface/80 backdrop-blur-sm border border-border rounded-lg p-4 hover:border-primary transition-all hover:shadow-lg hover:-translate-y-1 duration-300">
+                <div className="text-3xl mb-2">📞</div>
+                <h3 className="text-sm font-bold group-hover:text-primary transition-colors">
                   {t('contact')}
                 </h3>
-                <p className="text-muted-foreground">{t('contactDesc')}</p>
               </div>
             </Link>
           </div>
