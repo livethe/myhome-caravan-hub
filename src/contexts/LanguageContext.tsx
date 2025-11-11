@@ -66,7 +66,10 @@ const translations = {
     // Quick Links
     quickLinks: 'روابط سريعة',
     quickLinksDesc: 'اختر الخدمة التي تحتاجها',
-    trackCaravan: 'متابعة الكرفان',
+    trackCaravan: 'متابعة كرفاني',
+    newCaravan: 'كرفان جديد',
+    ourWorks: 'من أعمالنا',
+    companyClient: 'عميل للشركة',
   },
   en: {
     // Navigation
@@ -125,7 +128,10 @@ const translations = {
     // Quick Links
     quickLinks: 'Quick Links',
     quickLinksDesc: 'Choose the service you need',
-    trackCaravan: 'Track Caravan',
+    trackCaravan: 'Track My Caravan',
+    newCaravan: 'New Caravan',
+    ourWorks: 'Our Works',
+    companyClient: 'Company Client',
   },
 };
 

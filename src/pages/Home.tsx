@@ -39,19 +39,19 @@ const Home = () => {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 max-w-5xl mx-auto mt-16">
             <Link to="/new-customer" className="group">
               <h3 className="text-base md:text-lg font-semibold text-foreground/90 hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">
-                {t('newCustomer')}
+                {t('newCaravan')}
               </h3>
             </Link>
 
             <Link to="/projects" className="group">
               <h3 className="text-base md:text-lg font-semibold text-foreground/90 hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">
-                {t('projects')}
+                {t('ourWorks')}
               </h3>
             </Link>
 
             <Link to="/existing-customer" className="group">
               <h3 className="text-base md:text-lg font-semibold text-foreground/90 hover:text-primary transition-colors duration-300 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-0 after:left-0 after:bg-primary after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left">
-                {t('existingCustomer')}
+                {t('companyClient')}
               </h3>
             </Link>
 
